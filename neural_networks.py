@@ -2,7 +2,8 @@
 ## - def as classes, which extends torch.nn.module from torch lib
 ## Convolutional NN applied on MNIST datatset:
 
-from torch import nn, F
+from torch import nn
+import torch.nn.functional as F
 
 class Net(nn.Module):
     def __init__(self):
